@@ -1,0 +1,314 @@
+/*BARLOW FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*font-family: 'Barlow', sans-serif;*/
+
+/*FRAUNCES FONT*/
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*font-family: 'Fraunces', serif;*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.header-navbar {
+  background: url(./img/desktop/image-header.jpg) center center/cover;
+  height: 840px;
+}
+/*****NAVBAR*****/
+.navbar {
+  font-family: "Fraunces", serif;
+}
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+
+.nav .btn a {
+  text-decoration: none;
+  color: black;
+}
+.nav .btn a:hover {
+  color: white;
+}
+.nav .btn {
+  background: white;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 10px 25px 10px 25px;
+  transition: all 0.5s;
+}
+.nav .btn:hover {
+  background: rgb(255, 255, 255, 0.2);
+  color: white;
+  transition: all 0.5s;
+}
+/*****HEADER*****/
+.header {
+  font-family: "Fraunces", serif;
+  margin-top: 7rem;
+}
+
+.header h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 1rem;
+}
+.header .arrow {
+  font-size: 7rem;
+  color: white;
+  position: relative;
+  animation: updown 1s ease-in-out infinite;
+}
+
+@keyframes updown {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+}
+
+/*TANİM*/
+.tanim {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Fraunces", serif;
+  min-height: 600px;
+}
+
+.tanim .tanim-left {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.tanim-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tanim-left h4 {
+  font-weight: 900;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.tanim-left p {
+  margin: 3rem 0 3rem 0;
+  font-family: "Barlow", sans-serif;
+  font-size: larger;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.tanim-left .btn {
+  letter-spacing: 0.3rem;
+  border-bottom: 9px solid #fed501;
+  font-weight: 900;
+}
+.tanim-left .btn:hover {
+  border-right: 9px solid #fed501;
+  border-bottom: 9px solid #fed501;
+  background-color: rgb(254, 213, 1, 0.06);
+}
+.container-2 .btn-ice {
+  border-bottom: 9px solid #ff7062;
+}
+.container-2 .btn-ice:hover {
+  border-right: 9px solid #ff7062;
+  border-bottom: 9px solid #ff7062;
+  background-color: rgb(255, 112, 98, 0.06);
+}
+
+.tanim-right img {
+  width: 100%;
+  height: 100%;
+}
+/********3.CONTAİNER*********/
+.tanim-gp {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 600px;
+  min-height: 600px;
+  font-family: "Fraunces", serif;
+}
+.tanim-gp h4 {
+  font-weight: 900;
+  color: rgb(0, 0, 0, 0.5);
+  padding-bottom: 0.7rem;
+}
+
+.tanim-gp p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0, 0.4);
+}
+.tanim-gp.graphic p {
+  font-size: 1.02rem;
+}
+.tanim-gp.photography p {
+  font-size: 1.1rem;
+}
+.tanim-gp.graphic {
+  background: url(./img/desktop/image-graphic-design.jpg) center center/cover;
+}
+.tanim-gp.photography {
+  background: url(./img/desktop/image-photography.jpg) center center/cover;
+}
+/********ABOUT*********/
+.about {
+  text-align: center;
+  padding-top: 5rem;
+  font-family: "Barlow", sans-serif;
+}
+.about h4 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  letter-spacing: 0.18rem;
+  font-size: large;
+  color: rgb(0, 0, 0, 0.3);
+  padding-bottom: 5rem;
+}
+.about-all {
+  padding-bottom: 5rem;
+}
+.about-all img {
+  border-radius: 100%;
+  width: 25%;
+  margin-bottom: 3rem;
+}
+.about-all p {
+  font-weight: bold;
+  color: rgb(0, 0, 0, 0.5);
+  font-size: small;
+  padding-bottom: 2rem;
+}
+.about-all h6 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+}
+.about-all .job {
+  color: rgb(0, 0, 0, 0.3);
+}
+/********FOOTER*********/
+.footer {
+  background: #90d4c5;
+  height: 350px;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2 {
+  color: rgb(79, 117, 109);
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.footer ul {
+  font-weight: 700;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5;
+}
+.footer ul li a:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.footer .ul-1 {
+  gap: 50px;
+}
+.footer .ul-1 a {
+  transition: all 0.5s;
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.3);
+}
+.footer .ul-2 {
+  gap: 30px;
+}
+.footer .ul-2 .ıcon {
+  font-size: 30px;
+  color: rgb(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+.footer .ul-2 .ıcon:hover {
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.footer .btn {
+  background: white;
+  color: black;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  padding: 5px 20px 5px 20px;
+  transition: all 0.5s;
+  margin-bottom: 2rem;
+}
+.footer .btn:hover {
+  background: rgb(255, 255, 255, 0.2);
+  color: white;
+  transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+  }
+  .header .arrow {
+    font-size: 3rem;
+  }
+  .tanim {
+    text-align: center;
+  }
+  .tanim-left {
+    margin: 2rem 0 2rem 0;
+    order: 2;
+  }
+
+  .tanim-left h4 {
+    margin-top: 2rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  .tanim-left p {
+    margin-top: 1rem;
+    font-size: smaller;
+    margin-bottom: 1rem;
+  }
+  .tanim-right {
+    order: 1;
+  }
+  .tanim-left .btn {
+    letter-spacing: 0rem;
+  }
+  /*3.CONTAİNER*/
+  .tanim-gp.photography {
+    background: url(./img/mobile/image-photography.jpg) center center/cover;
+  }
+  .tanim-gp.graphic {
+    background: url(./img/mobile/image-graphic-design.jpg) center center/cover;
+  }
+  .tanim-gp.graphic p {
+    font-size: 0.618rem;
+  }
+  .tanim-gp.photography p {
+    font-size: 0.7rem;
+  }
+}
