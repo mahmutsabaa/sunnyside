@@ -53,7 +53,7 @@ function App() {
               <Nav className="nav ms-auto ">
                 {MenuData.map((item) => (
                   <NavLink
-                    href={item.id}
+                    href={`#${item.id}`}
                     exact
                     to={item.path}
                     key={item.name}
