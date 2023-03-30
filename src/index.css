@@ -12,6 +12,7 @@
   list-style: none;
   box-sizing: border-box;
 }
+body{overflow-x: hidden;}
 .header-navbar {
   background: url(./img/desktop/image-header.jpg) center center/cover;
   height: 840px;
